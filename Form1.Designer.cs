@@ -310,6 +310,7 @@
             this.Controls.Add(this.btnxml);
             this.Name = "frmWeatherAPI";
             this.Text = "Weather API";
+            this.Load += new System.EventHandler(this.frmWeatherAPI_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
