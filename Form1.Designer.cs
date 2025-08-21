@@ -64,6 +64,7 @@
             this.btnxml.TabIndex = 0;
             this.btnxml.Text = "Get Weather (XML)";
             this.btnxml.UseVisualStyleBackColor = false;
+            this.btnxml.Click += new System.EventHandler(this.btnxml_Click);
             // 
             // btnjson
             // 
@@ -76,6 +77,7 @@
             this.btnjson.TabIndex = 1;
             this.btnjson.Text = "Get Weather (JSON)";
             this.btnjson.UseVisualStyleBackColor = false;
+            this.btnjson.Click += new System.EventHandler(this.btnjson_Click);
             // 
             // txtzipcode
             // 
